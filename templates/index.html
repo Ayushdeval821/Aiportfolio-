@@ -4,14 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayush Deval | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #fff;
+            color: #1e3c72;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        /* Sections */
+        .section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1e3c72;
+        }
+
+        /* Cards */
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .skills span {
+            background: #1e3c72;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Projects */
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 5px solid #1e3c72;
+            border-radius: 8px;
+        }
+
+        /* List */
+        ul {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            list-style: square inside;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1e3c72;
+            color: #fff;
+        }
+    </style>
 </head>
+
 <body>
 
     <!-- Header -->
     <header>
         <h1>Ayush Deval</h1>
-        <p>B.Tech AI Student | Frontend Developer | Data Enthusiast</p>
+        <p>B.Tech AI Student | Frontend Developer | Data Analst</p>
         <a href="mailto:your-email@gmail.com" class="btn">Contact Me</a>
     </header>
 
@@ -21,7 +128,7 @@
         <p>
             Dedicated and curious B.Tech AI student seeking an internship opportunity to apply academic knowledge
             in real-world scenarios. Experienced in IIoT systems, data analysis, machine learning,
-            and frontend development. Always eager to learn new technologies and build impactful projects.
+            and frontend development.
         </p>
     </section>
 
@@ -65,38 +172,32 @@
 
         <div class="project">
             <h3>Smart Home Automation</h3>
-            <p>Arduino-based system using sensors, buzzer, and servo motor for automated tasks,
-               door locking, and security alerts.</p>
+            <p>Arduino-based system using sensors, buzzer, and servo motor.</p>
         </div>
 
         <div class="project">
             <h3>Smart Power Switch</h3>
-            <p>ESP32 + SSR module project to control appliances remotely via Wi-Fi using cloud server.</p>
+            <p>ESP32 + SSR module to control appliances via Wi-Fi.</p>
         </div>
 
         <div class="project">
             <h3>Monster Car</h3>
-            <p>Bluetooth-controlled smart car using ultrasonic sensors for obstacle detection.</p>
+            <p>Bluetooth-controlled car with obstacle detection.</p>
         </div>
 
         <div class="project">
             <h3>Retail Sales Analysis (Python)</h3>
-            <p>
-                Cleaned and analyzed sales data using Pandas & NumPy.  
-                Performed EDA, correlation analysis, built Power BI dashboards,
-                and generated automated reports for business insights.
-            </p>
+            <p>EDA, Pandas, NumPy, Power BI dashboards & reporting.</p>
         </div>
     </section>
 
     <!-- Certifications -->
     <section class="section">
         <h2>Certifications & Achievements</h2>
-
         <ul>
             <li><strong>Data Science Certificate – IBM (2024)</strong></li>
-            <li><strong>Introduction to Artificial Intelligence – Simplilearn SkillUp</strong></li>
-            <li><strong>3rd Position – HackBhoomi (Smart India Hackathon 2025)</strong></li>
+            <li><strong>Introduction to AI – Simplilearn</strong></li>
+            <li><strong>3rd Position – HackBhoomi (SIH 2025)</strong></li>
         </ul>
     </section>
 
